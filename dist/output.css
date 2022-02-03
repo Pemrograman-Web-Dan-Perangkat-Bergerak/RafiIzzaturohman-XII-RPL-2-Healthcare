@@ -498,6 +498,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 11rem;
 }
 
+.mx-52 {
+  margin-left: 14rem;
+  margin-right: 14rem;
+}
+
+.mx-60 {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.mx-72 {
+  margin-left: 18rem;
+  margin-right: 18rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -733,6 +748,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
 .from-blue-500 {
   --tw-gradient-from: #3b82f6;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(59 130 246 / 0));
@@ -800,6 +819,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .py-10 {
