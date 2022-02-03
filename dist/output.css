@@ -550,6 +550,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 6rem;
 }
 
+.mt-28 {
+  margin-top: 12rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -610,6 +614,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 7rem;
 }
 
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.ml-cust1 {
+  margin-left: 2.8rem;
+}
+
+.ml-12 {
+  margin-left: 3rem;
+}
+
 .mt-40 {
   margin-top: 10rem;
 }
@@ -624,6 +648,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-60 {
   margin-top: 15rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
 }
 
 .mt-8 {
@@ -678,6 +706,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-x-reverse: 0;
   margin-right: calc(9rem * var(--tw-space-x-reverse));
   margin-left: calc(9rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-12 > :not([hidden]) ~ :not([hidden]) {
@@ -757,6 +791,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(59 130 246 / 0));
 }
 
+.from-cust-1 {
+  --tw-gradient-from: #67C3F3;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(59 130 246 / 0));
+}
+
 .to-cyan-300 {
   --tw-gradient-to: #67e8f9;
 }
@@ -767,6 +806,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .to-cyan-500 {
   --tw-gradient-to: #06b6d4;
+}
+
+.to-violet-600 {
+  --tw-gradient-to: #7c3aed;
+}
+
+.to-indigo-500 {
+  --tw-gradient-to: #6366f1;
+}
+
+.to-violet-400 {
+  --tw-gradient-to: #a78bfa;
+}
+
+.to-violet-300 {
+  --tw-gradient-to: #c4b5fd;
+}
+
+.to-cust-1 {
+  --tw-gradient-to: #5A98F2;
+}
+
+.to-cust-2 {
+  --tw-gradient-to: #67C3F3;
 }
 
 .stroke-blue-400 {
